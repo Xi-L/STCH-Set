@@ -3,10 +3,10 @@
 Code for ICLR2025 Paper: Few for Many: Tchebycheff Set Scalarization for Many-Objective Optimization
 
 The code is mainly designed to be simple and readable, it contains:
-
-- <code>problem.py</code> contains all test problems used in this paper;
-- <code>model_set_[quad_func/model_set_mixed_linear_regression/model_set_mixed_nonlinear_regression].py</code> is a simple torch.nn.Module that stores the set solutions for the problem of [convex optimization/noisy linear regression/noisy nonlinear regression];
 - <code>run_[quad_func/model_set_mixed_linear_regression/model_set_mixed_nonlinear_regression].py</code> is a ~150-line main file to run the STCH-Set method for the problem of [convex optimization/noisy linear regression/noisy nonlinear regression];
+- <code>model_set_[quad_func/model_set_mixed_linear_regression/model_set_mixed_nonlinear_regression].py</code> is a simple torch.nn.Module that stores the set solutions for the problem of [convex optimization/noisy linear regression/noisy nonlinear regression];
+- <code>problem.py</code> contains all test problems used in this paper.
+
 
 
 **Reference**
